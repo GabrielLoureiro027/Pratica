@@ -16,9 +16,8 @@ const alunos = [
 const qntAprovados = [];
 // TODO : Ler o arquivo e criar um array de objetos com as informações dos alunos
 //Funções ler Arquivo
-lerArquivoOFC(){
-    const Notas = this.nota1.split('\n').map(row) => row.split(",")
-    const headers = csvArray.shift();   
+lerArquivoOFC(arquivo){
+    
 }
 // Funções
 calcularMedia(alunos);
