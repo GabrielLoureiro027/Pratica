@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom'
 
 export default function Home() {
   return (
-    <div>
-    </div>
+    <div>Bem-Vindo(a) a <span className=''>ConectaEventos</span></div>
   )
 }
