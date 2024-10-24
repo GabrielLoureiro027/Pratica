@@ -1,17 +1,15 @@
 import React from 'react'
 import { Outlet } from 'react-router-dom'
-
-import Header from '../Header/Header'
+import Header from '../Header'
 import Footer from '../Footer/Footer'
-
-import Home from '../../Pages/Home'
+import Cadastro from '../../pages/cadastro'
 
 export default function Layout() {
   return (
-    <div>
-        <Header />
-        <Outlet />
-        <Footer />
-    </div>
+    <>
+      <Header/>
+      <Outlet/>
+      <Footer/>
+    </>
   )
 }
